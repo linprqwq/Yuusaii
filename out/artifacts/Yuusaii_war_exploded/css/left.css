@@ -1,0 +1,29 @@
+ul li{
+    list-style-type: none;
+}
+.title {
+    position: relative;
+    left: -40px;
+    height: 20px;
+    text-align: center;
+    margin: 20px;
+}
+a {
+    display: block;
+    text-decoration: blink;
+    color: white;
+    background-color: #1c92d2;
+    border-radius: 10px;
+    width: 100px;
+    position: relative;
+    left: -30px;
+    text-align: center;
+    height: 25px;
+    margin: 10px;
+}
+body{
+   background-color: white;
+}
+.menuson{
+    display: none;
+}

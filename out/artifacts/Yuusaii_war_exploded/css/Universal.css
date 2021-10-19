@@ -1,0 +1,40 @@
+ul.toolbar a{
+    text-decoration: blink;
+}
+.tools{
+    position: relative;
+    top:-40px;
+    left: 60px;
+}
+ul.toolbar{
+    list-style-type: none;
+}
+table{
+    position: relative;
+    top: -30px;
+    left: 100px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888; // (水平阴影的位置 垂直阴影的位置 模糊距离 阴影的颜色)
+}
+.tablelist tbody tr.odd{
+    background: #80a2fc;
+}
+body{
+    background-color: rgba(180, 208, 212, 0.38);
+}
+.pagin {
+    position: relative;
+    left: 59px;
+    top: -20px;
+}
+.right_top {
+    position: relative;
+    left: 100px;
+}
+td {
+    width: 170px;
+    height: 50px;
+}
+.pagin .paginList a {
+    text-decoration: blink;
+}

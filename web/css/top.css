@@ -1,0 +1,39 @@
+body{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.user{
+    position: relative;
+    left: 85%;
+    top: -15px;
+    z-index: 2;
+    width: 170px;
+}
+ul{
+    list-style-type: none;
+}
+.topright{
+    float: right;
+    position: relative;
+    right: 20px;
+    top: -15px;
+    z-index: 2;
+}
+.title{
+    z-index: -5;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+#z1{
+    color: white;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    z-index: -1;
+}
